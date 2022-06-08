@@ -1,5 +1,3 @@
-console.log("hi");
-
 /* Interest calculator 
 Inputs: 
 a) Principal
@@ -36,4 +34,10 @@ submit.addEventListener("click", function (event) {
     timeInput.value
   );
   console.log(amount);
+  document.getElementById("output").innerHTML = Math.floor(amount);
 });
+
+/* let varName = document.getElementById("output");
+
+document.getElementById("output").innerHTML += "test";
+ */
